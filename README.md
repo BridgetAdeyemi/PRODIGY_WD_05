@@ -24,4 +24,4 @@ This is a weather web application that displays the current weather conditions o
 - The weather data will be displayed, including the temperature, humidity, wind speed, and a weather icon representing the current conditions.
 
 **Live Demo**         
-Checkout the live version of the project here
+Checkout the live version of the project here https://bridgetadeyemi.github.io/PRODIGY_WD_05/

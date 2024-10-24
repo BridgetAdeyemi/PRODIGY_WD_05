@@ -21,4 +21,7 @@ This is a weather web application that displays the current weather conditions o
 
 **Usage**    
 - Enter a city name into the search box and click the search button to get the current weather conditions for that city.       
-- The weather data will be displayed, including the temperature, humidity, wind speed, and a weather icon representing the current conditions.        
+- The weather data will be displayed, including the temperature, humidity, wind speed, and a weather icon representing the current conditions.
+
+**Live Demo**         
+Checkout the live version of the project here

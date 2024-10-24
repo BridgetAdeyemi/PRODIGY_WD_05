@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background: #000;
+}
+.card {
+  width: 30%;
+  /*min-width: 330px;*/
+  min-width: 450px;
+  /*background: linear-gradient(120deg, #bddd2e, #064e92);*/
+  background: linear-gradient(120deg, #ce2edd, #02505a);
+  color: #fff;
+  margin: 70px auto;
+  border-radius: 20px;
+  padding: 1.5rem;
+  text-align: center;
+}
+/* Container for the input and the icon */
+.input-container {
+  position: relative;
+  width: 100%; /* Ensure it takes up full width */
+  margin-right: 5px;
+}
+
+/* Search input field */
+.input-container input {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  padding-left: 40px; /* Create space for the icon */
+  height: 50px;
+  border-radius: 30px;
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  color: #555;
+  font-size: 1.2rem;
+}
+
+/* Positioning the Font Awesome icon */
+.location-icon {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%); /* Vertically center the icon */
+  color: #555;
+  font-size: 1.3rem;
+}
+.search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/*.search input {
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  color: #555;
+  padding: 1rem 2.5rem;
+  height: 50px;
+  border-radius: 30px;
+  flex: 1;
+  margin-right: 1rem;
+  font-size: 1.2rem;
+  min-width: 0;
+}*/
+
+.search button {
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  border-radius: 50%;
+  padding: 0.7rem 0.8rem;
+  cursor: pointer;
+  font-size: 1.3rem;
+  color: #555;
+}
+.search button:hover {
+  color: #064e92;
+}
+
+.error {
+  text-align: left;
+  margin-left: 10px;
+  font-size: 1.3rem;
+  margin-top: 10px;
+  color: #fff;
+  display: none;
+  font-weight: bold;
+}
+
+.weather img {
+  width: 190px;
+  margin-top: 20px;
+  /*filter: brightness(0) invert(1);*/
+}
+.weather h1 {
+  font-size: 3rem;
+  margin-top: -5px;
+  font-weight: 500;
+}
+.weather h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: -8px;
+}
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 20px;
+}
+.col img {
+  width: 40px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  filter: brightness(0) invert(1);
+}
+.humidity,
+.wind {
+  font-size: 1.5rem;
+}

@@ -1,0 +1,24 @@
+@media (max-width: 884px) {
+  .card {
+    width: 30%;
+    min-width: 550px;
+  }
+}
+@media (max-width: 768px) {
+  .card {
+    width: 30%;
+    min-width: 450px;
+  }
+}
+@media (max-width: 500px) {
+  .card {
+    width: 30%;
+    min-width: 330px;
+  }
+}
+@media (max-width: 320px) {
+  .card {
+    width: 30%;
+    min-width: 310px;
+  }
+}
